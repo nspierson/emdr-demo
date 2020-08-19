@@ -1,6 +1,11 @@
 .navbar-lewagon {
   justify-content: space-between;
-  background: white;
+  background: #122031;
+  height: 50px;
+
+  a {
+    color: white;
+  }
 }
 
 .navbar-lewagon .navbar-collapse {
@@ -10,3 +15,48 @@
 .navbar-lewagon .navbar-brand img {
   width: 40px;
 }
+
+.contact-infos {
+  display: flex;
+}
+
+.tel {
+  padding: 0 10px;
+  color: white;
+  font-size: 13px;
+}
+
+.address {
+  padding: 0 10px;
+  color: white;
+  font-size: 13px;
+}
+
+.navbar-menu {
+  height: 100px;
+  width: 100vw;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.title {
+  h3 {
+    color: #122031;
+  }
+}
+
+.menu {
+  display: flex;
+  a {
+    margin: 0 5px;
+    text-decoration: none;
+    color: #122031;
+  }
+
+  a:hover {
+    color: #69D1EE;
+  }
+}
+

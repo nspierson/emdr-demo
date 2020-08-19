@@ -1,1 +1,48 @@
-// Specific CSS for your home-page
+.emdr-what, .emdr-consul {
+  h1 {
+    color: rgb(18, 32, 49);
+  }
+  p {
+    color: rgba(18, 32, 49, 0.7);
+    font-size: 13px;
+  }
+}
+
+.map-contact-info {
+  height: auto;
+  width: 100%;
+  background: #122031;
+  color: white;
+  font-size: 13px;
+  padding: 10px 0;
+  p {
+    color: white;
+    font-size: 13px;
+  }
+}
+
+.btn-rdv {
+  padding: 8px 24px;
+  border: 1px solid #69D1EE;
+  border-radius: 50px;
+  background: #69D1EE;
+  color: white;
+  a {
+    color: white;
+  }
+}
+
+.pricing {
+  width: 100%;
+  height: auto;
+  background: #122031;
+  color: white;
+  font-size: 13px;
+  padding: 10px 0;
+}
+
+.border {
+  border-top: 1px solid white;
+  width: 15%;
+  margin: 0 auto;
+}

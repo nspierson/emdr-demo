@@ -1,0 +1,31 @@
+.banner {
+  height: 70vh;
+  width: 100vw;
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+}
+
+.text-banner {
+  width: 50%;
+  h5 {
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  }
+}
+
+.btn-gradient {
+  color: #69D1EE;
+  padding: 8px 24px;
+  border-radius: 50px;
+  font-weight: bold;
+  background: #122031;
+  transition: background 0.3s ease;
+  border: 1px solid #69D1EE;
+}
+
+.btn-gradient:hover {
+  background: #69D1EE;
+  color: white;
+}

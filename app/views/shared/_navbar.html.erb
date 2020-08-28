@@ -32,12 +32,12 @@
     <div class="title-menu d-flex justify-content-between">
       <div class="title"><h3>EMDR BAS-RHIN</h3></div>
       <div class="menu">
-        <a href="#" style="color: #69D1EE;">ACCUEIL</a>
-        <a href="#">E.M.D.R</a>
-        <a href="#">TARIFS</a>
-        <a href="#">À PROPOS</a>
-        <a href="#">COVID-19</a>
-        <a href="#">CONTACT</a>
+        <%= link_to "ACCUEIL", "/soins#scrollPoint", class: "nav-link" %>
+        <%= link_to "E.M.D.R", "#emdrScroll", class: "nav-link" %>
+        <%= link_to "TARIFS", "#pricingScroll", class: "nav-link" %>
+        <%= link_to "À PROPOS", "#aboutScroll", class: "nav-link" %>
+        <%= link_to "COVID-19", "#covidScroll", class: "nav-link" %>
+        <%= link_to "CONTACT", "#contactScroll", class: "nav-link" %>
       </div>
     </div>
   </div>

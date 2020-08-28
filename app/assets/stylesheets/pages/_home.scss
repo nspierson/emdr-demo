@@ -14,7 +14,7 @@
   background: #122031;
   color: white;
   font-size: 13px;
-  padding: 10px 0;
+  padding: 30px 0;
   p {
     color: white;
     font-size: 15px;
@@ -32,13 +32,22 @@
   }
 }
 
+.btn-rdv:hover {
+  background: #122031;
+  transition: background 0.3s ease-in;
+
+  a {
+    color: white!important;
+  }
+}
+
 .pricing {
   width: 100%;
   height: auto;
   background: #122031;
   color: white;
   font-size: 15px;
-  padding: 10px 0;
+  padding: 30px 0;
 }
 
 .border {
@@ -53,3 +62,4 @@
     font-size: 15px;
   }
 }
+

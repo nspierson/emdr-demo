@@ -4,7 +4,7 @@
   }
   p {
     color: rgba(18, 32, 49, 0.7);
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 
@@ -17,7 +17,7 @@
   padding: 10px 0;
   p {
     color: white;
-    font-size: 13px;
+    font-size: 15px;
   }
 }
 
@@ -37,7 +37,7 @@
   height: auto;
   background: #122031;
   color: white;
-  font-size: 13px;
+  font-size: 15px;
   padding: 10px 0;
 }
 
@@ -45,4 +45,11 @@
   border-top: 1px solid white;
   width: 15%;
   margin: 0 auto;
+}
+
+.about {
+  p {
+    color: rgba(18, 32, 49, 0.7);
+    font-size: 15px;
+  }
 }
